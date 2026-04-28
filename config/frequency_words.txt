@@ -153,8 +153,6 @@
 #                         企业与品牌
 # ═══════════════════════════════════════════════════════════════
 
-/胖东来|于东来/ => 胖东来
-
 /深度求索|幻方量化|梁文锋|\bDeepSeek\b/ => DeepSeek
 
 /华为|任正非|余承东|鸿蒙|海思|昇腾|鲲鹏|\bHUAWEI\b|\bHarmonyOS\b|\bHiSilicon\b/ => 华为
@@ -169,12 +167,6 @@
 /众擎|EngineAI|赵同阳/ => 众擎机器人
 
 /黑神话|冯骥/ => 黑神话悟空
-
-/影之刃零|梁其伟/ => 影之刃零
-
-/三体|流浪地球|刘慈欣|郭帆/ => 三体/流浪地球
-
-申奥
 
 /京东|刘强东|\bJD\b|\bJingdong\b/ => 京东
 
@@ -229,30 +221,40 @@
 
 [AI 相关]
 /(?<![a-zA-Z])ai(?![a-zA-Z])/
-人工智能
+/人工智能|artificial intelligence|machine learning|deep learning|neural network|computer vision|natural language processing|\bNLP\b|\bCV\b/ => AI 相关
+
+[AI 编程]
+/AI编程|AI 编程|智能编程|编程助手|代码助手|代码生成|代码补全|代码智能体|编程智能体|AI IDE|AI原生IDE|AI coding|AI programming|AI-assisted coding|AI code assistant|coding assistant|programming assistant|code generation|code completion|code review agent|coding agent|software engineering agent|agentic coding|vibe coding|AI developer tools|developer agent|autonomous coding|\bCursor\b|\bWindsurf\b|\bTrae\b|\bGitHub Copilot\b|\bCopilot\b|\bClaude Code\b|\bCodex\b|\bCline\b|\bRoo Code\b|\bAider\b|\bDevin\b|\bCodeium\b|\bTabnine\b|\bReplit Agent\b|\bLovable\b|\bBolt\.new\b|\bMCP\b|\bModel Context Protocol\b/ => AI 编程
+
+[大模型应用]
+/大模型|语言模型|多模态|推理模型|开源模型|端侧模型|AI Agent|智能体|智能助手|AIGC|RAG|检索增强|文生图|文生视频|语音模型|AI搜索|AI 搜索|AI眼镜|AI 眼镜|large language model|language model|foundation model|reasoning model|multimodal model|open-source model|open source model|on-device AI|edge AI|AI agent|agentic AI|AI assistant|AI search|AI browser|AI app|AI glasses|generative AI|text-to-image|text to image|text-to-video|text to video|speech model|voice model|retrieval augmented generation|\bLLM\b|\bGPT\b|\bGemini\b|\bClaude\b|\bLlama\b|\bQwen\b|\bKimi\b|\bGLM\b|\bMinimax\b|\bDeepSeek\b|\bGrok\b|\bPerplexity\b|\bMistral\b|\bFalcon\b|\bPhi\b/ => 大模型应用
+
+[前端开发]
+/前端|Web开发|网页开发|前端框架|前端工程化|前端性能|前端架构|组件库|低代码|跨端|微前端|frontend|front-end|front end|web development|web developer|frontend development|frontend engineering|frontend framework|web framework|web performance|web platform|component library|design system|server components|server actions|hydration|islands architecture|micro frontend|low-code|no-code|\bReact\b|\bReact Native\b|\bNext\.js\b|\bVue\b|\bNuxt\b|\bSvelte\b|\bSvelteKit\b|\bAstro\b|\bSolidJS\b|\bQwik\b|\bAngular\b|\bRemix\b|\bVite\b|\bWebpack\b|\bRspack\b|\bTurbopack\b|\bParcel\b|\bRollup\b|\bBun\b|\bDeno\b|\bTypeScript\b|\bJavaScript\b|\bNode\.js\b|\bTailwind\b|\bTailwind CSS\b|\bShadcn\b|\bStorybook\b|\bESLint\b|\bPrettier\b|\bBiome\b|\bVitest\b|\bPlaywright\b/ => 前端开发
+
+[科技数码]
+/科技数码|消费电子|数码产品|新品发布|发布会|旗舰机|折叠屏|直板机|影像旗舰|手机影像|智能手机|平板电脑|笔记本电脑|游戏本|掌机|智能手表|智能手环|TWS|耳机|相机|无人机|智能家居|可穿戴|路由器|NAS|OLED|Mini LED|Micro LED|高刷|快充|无线充|电池续航|卫星通信|Wi-Fi 7|蓝牙|MR|AR|VR|空间计算|安卓|鸿蒙|iOS|iPadOS|macOS|Windows 11|consumer electronics|digital gadgets|tech gadgets|product launch|launch event|flagship phone|smartphone|foldable phone|flip phone|camera phone|tablet|laptop|gaming laptop|handheld console|smartwatch|smart band|wireless earbuds|earbuds|headphones|camera|drone|smart home|wearable|wearables|router|network attached storage|high refresh rate|fast charging|wireless charging|battery life|satellite connectivity|spatial computing|mixed reality|augmented reality|virtual reality|\bAndroid\b|\biOS\b|\biPadOS\b|\bmacOS\b|\bWindows 11\b|\bWear OS\b|\bVision Pro\b|\bQuest\b|\bSurface\b|\bGalaxy\b|\bPixel\b/ => 科技数码
 
 [芯片]
-芯片
-光刻机
-半导体
+/芯片|光刻机|半导体|集成电路|晶圆|先进制程|封装|chip|semiconductor|integrated circuit|wafer|foundry|lithography|advanced packaging|\bSoC\b|\bCPU\b|\bGPU\b|\bNPU\b|\bTPU\b|\bHBM\b|\bEUV\b|\bEDA\b/ => 芯片
 
-/水电|雅鲁藏布江/ => 水电
-/光伏|太阳能/ => 光伏
-核能
-能源
+/水电|雅鲁藏布江|hydropower|hydroelectric|hydroelectricity/ => 水电
+/光伏|太阳能|photovoltaic|solar power|solar energy|solar panel/ => 光伏
+/核能|核电|nuclear energy|nuclear power|nuclear reactor|small modular reactor|\bSMR\b/ => 核能
+/能源|储能|新能源|可再生能源|energy|energy storage|renewable energy|clean energy|battery storage|power grid|smart grid/ => 能源
 
-/自动驾驶|无人驾驶|智驾/ => 自动驾驶
+/自动驾驶|无人驾驶|智驾|autonomous driving|self-driving|driverless|intelligent driving|assisted driving|robotaxi|\bADAS\b|\bNOA\b|\bFSD\b/ => 自动驾驶
 
-机器人
-/机械狗|四足/ => 机器狗
-具身智能
+/机器人|人形机器人|协作机器人|服务机器人|工业机器人|robot|robotics|humanoid robot|collaborative robot|service robot|industrial robot|\bcobot\b/ => 机器人
+/机械狗|四足|机器狗|robot dog|quadruped robot|four-legged robot/ => 机器狗
+/具身智能|embodied intelligence|embodied AI|physical AI|world model/ => 具身智能
 
-/月球|登月|火星|宇宙|飞船|航天|空间站|卫星/ => 航天
+/月球|登月|火星|宇宙|飞船|航天|空间站|卫星|火箭|space|aerospace|spaceflight|spacecraft|rocket|satellite|space station|moon|lunar|Mars|\bNASA\b|\bSpaceX\b|\bStarship\b/ => 航天
 
 # 前沿科技
-量子
-脑机
-基因
+/量子|量子计算|量子通信|quantum|quantum computing|quantum computer|quantum communication/ => 量子
+/脑机|脑机接口|brain-computer interface|brain computer interface|neural interface|\bBCI\b|Neuralink/ => 脑机
+/基因|基因编辑|生物技术|合成生物|gene|genetics|gene editing|genome|genomics|biotech|biotechnology|synthetic biology|\bCRISPR\b/ => 基因
 
 # 产业政策
-生产力
+/生产力|新质生产力|productivity|new productive forces/ => 生产力
