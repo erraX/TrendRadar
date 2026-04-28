@@ -31,6 +31,34 @@
 # 过滤标题党
 震惊
 
+# 过滤不关注的影视/游戏方向，避免被“中国”等泛分组误命中
+国产电影
+国产剧
+国剧
+大陆电影
+内地电影
+中国电影
+中国影视
+华语电影
+春节档
+英雄联盟
+LOL
+League of Legends
+手游
+手机游戏
+移动游戏
+mobile game
+mobile gaming
+王者荣耀
+和平精英
+原神
+崩坏
+鸣潮
+明日方舟
+阴阳师
+抽卡
+gacha
+
 
 
 # ───────────────────────────────────────────────────────────────
@@ -234,6 +262,12 @@
 
 [科技数码]
 /科技数码|消费电子|数码产品|新品发布|发布会|旗舰机|折叠屏|直板机|影像旗舰|手机影像|智能手机|平板电脑|笔记本电脑|游戏本|掌机|智能手表|智能手环|TWS|耳机|相机|无人机|智能家居|可穿戴|路由器|NAS|OLED|Mini LED|Micro LED|高刷|快充|无线充|电池续航|卫星通信|Wi-Fi 7|蓝牙|MR|AR|VR|空间计算|安卓|鸿蒙|iOS|iPadOS|macOS|Windows 11|consumer electronics|digital gadgets|tech gadgets|product launch|launch event|flagship phone|smartphone|foldable phone|flip phone|camera phone|tablet|laptop|gaming laptop|handheld console|smartwatch|smart band|wireless earbuds|earbuds|headphones|camera|drone|smart home|wearable|wearables|router|network attached storage|high refresh rate|fast charging|wireless charging|battery life|satellite connectivity|spatial computing|mixed reality|augmented reality|virtual reality|\bAndroid\b|\biOS\b|\biPadOS\b|\bmacOS\b|\bWindows 11\b|\bWear OS\b|\bVision Pro\b|\bQuest\b|\bSurface\b|\bGalaxy\b|\bPixel\b/ => 科技数码
+
+[海外影视]
+/^(?!.*(国产|国产剧|国产电影|国剧|内地剧|大陆剧|大陆电影|中国电影|中国影视|华语电影|春节档)).*(美剧|英剧|海外剧|欧美剧|电影|院线|剧集|流媒体|好莱坞|奥斯卡|艾美奖|金球奖|票房|预告片|续订|开播|上映|影评|movie|film|cinema|box office|trailer|teaser|review|streaming|tv series|tv show|season|episode|renewed|premiere|release date|hollywood|oscar|emmy|golden globe|\bNetflix\b|\bHBO\b|\bMax\b|\bDisney\+\b|\bHulu\b|\bPrime Video\b|\bApple TV\+\b|\bParamount\+\b|\bPeacock\b|\bA24\b|\bMarvel\b|\bDC\b|\bWarner Bros\b|\bUniversal Pictures\b|\bSony Pictures\b).*/ => 海外影视
+
+[单机/主机游戏]
+/^(?!.*(英雄联盟|\bLOL\b|League of Legends|手游|手机游戏|移动游戏|mobile game|mobile gaming|王者荣耀|和平精英|原神|崩坏|鸣潮|明日方舟|阴阳师|抽卡|gacha)).*(单机游戏|主机游戏|买断制|独立游戏|3A游戏|游戏主机|游戏掌机|实体版|数字版|DLC|资料片|重制版|复刻版|移植版|发售日|试玩版|demo|game release|release date|single-player|single player|console game|pc game|indie game|AAA game|handheld console|game console|physical edition|digital edition|remake|remaster|port|early access|gameplay|wishlist|\bSteam\b|\bSteam Deck\b|\bValve\b|\bNintendo\b|\bSwitch\b|\bSwitch 2\b|\bPlayStation\b|\bPS5\b|\bPS4\b|\bPS Plus\b|\bSony Interactive Entertainment\b|\bXbox\b|\bGame Pass\b|\bDota ?2\b|刀塔|Ti国际邀请赛|The International|街霸6|街头霸王6|Street Fighter 6|\bSF6\b|暴雪|暴雪娱乐|战网|魔兽|魔兽世界|暗黑破坏神|星际争霸|守望先锋|炉石传说|\bBlizzard\b|\bBattle\.net\b|\bWarcraft\b|\bWorld of Warcraft\b|\bWoW\b|\bDiablo\b|\bStarCraft\b|\bOverwatch\b|\bHearthstone\b).*/ => 单机/主机游戏
 
 [芯片]
 /芯片|光刻机|半导体|集成电路|晶圆|先进制程|封装|chip|semiconductor|integrated circuit|wafer|foundry|lithography|advanced packaging|\bSoC\b|\bCPU\b|\bGPU\b|\bNPU\b|\bTPU\b|\bHBM\b|\bEUV\b|\bEDA\b/ => 芯片

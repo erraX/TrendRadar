@@ -41,7 +41,7 @@ app:
 # ===============================================================
 schedule:
   enabled: true                         # 是否启用调度系统
-  preset: "morning_evening"             # 预设模板名称（见上方说明）
+  preset: "always_on"             # 预设模板名称（见上方说明）
 
 
 # ===============================================================
@@ -69,14 +69,24 @@ platforms:
       name: "财联社热门"
     - id: "ifeng"
       name: "凤凰网"
-    - id: "tieba"
-      name: "贴吧"
-    - id: "weibo"
-      name: "微博"
-    - id: "douyin"
-      name: "抖音"
     - id: "zhihu"
       name: "知乎"
+    - id: "github-trending-today"
+      name: "Github"
+    - id: "v2ex"
+      name: "v2ex"
+    - id: "douban"
+      name: "豆瓣热门电影"
+    - id: "steam"
+      name: "Steam 在线人数"
+    - id: "tencent-hot"
+      name: "腾讯新闻"
+#     - id: "tieba"
+#       name: "贴吧"
+#     - id: "weibo"
+#       name: "微博"
+#     - id: "douyin"
+#       name: "抖音"
 
 
 
@@ -126,6 +136,62 @@ rss:
     - id: "yahoo-finance"
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
+
+    - id: "jiemian"
+      name: "界面"
+      url: "http://feedmaker.kindle4rss.com/feeds/wowjiemian.weixin.xml"
+
+    - id: "Cnbeta"
+      name: "Cnbeta"
+      url: "https://feeds2.feedburner.com/cnbeta-full"
+
+    - id: "tai-media"
+      name: "钛媒体"
+      url: "https://www.tmtpost.com/rss.xml"
+
+    - id: "liangzi"
+      name: "量子位"
+      url: "https://www.qbitai.com/feed"
+
+    - id: "sspai"
+      name: "少数派"
+      url: "http://sspai.me/feed"
+
+    - id: "ifanr"
+      name: "爱范儿"
+      url: "https://ifanr.com/feed"
+
+    - id: "techCrunch"
+      name: "TechCrunch"
+      url: "https://techcrunch.com/feed/"
+
+    - id: "verge"
+      name: "TheVerge"
+      url: "http://www.theverge.com/rss/full.xml"
+
+    - id: "variety"
+      name: "Variety"
+      url: "https://variety.com/feed/"
+
+    - id: "hollywood-reporter"
+      name: "The Hollywood Reporter"
+      url: "https://www.hollywoodreporter.com/feed/"
+
+    - id: "deadline"
+      name: "Deadline"
+      url: "https://deadline.com/feed/"
+
+    - id: "ign-games"
+      name: "IGN Games"
+      url: "https://feeds.feedburner.com/ign/games-all"
+
+    - id: "gematsu"
+      name: "Gematsu"
+      url: "https://www.gematsu.com/feed"
+
+    - id: "playstation-blog"
+      name: "PlayStation Blog"
+      url: "https://blog.playstation.com/feed/"
 
     # 自定义源示例
     # - id: "custom-feed"
